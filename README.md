@@ -1,4 +1,4 @@
-# ContentSwiper
+# Head2Head
 
 A mobile comparison app built with React Native and Expo that lets users rank their preferences through head-to-head comparisons.
 
@@ -36,7 +36,7 @@ ContentSwiper presents users with pairs of items (currently anime) and tracks th
 1. Clone the repository:
 ```bash
 git clone <your-repo-url>
-cd ContentSwiper
+cd Head2Head
 ```
 
 2. Install dependencies:
@@ -60,7 +60,7 @@ Then choose your platform:
 ## Project Structure
 
 ```
-ContentSwiper/
+Head2Head/
 ├── src/
 │   ├── components/
 │   │   ├── AnimeCard.tsx          # Individual card component
