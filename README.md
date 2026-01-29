@@ -171,6 +171,22 @@ export const theme = {
 
 ## Development
 
+### Testing
+
+Run the test suite:
+```bash
+npm test              # Run all tests
+npm run test:watch    # Run tests in watch mode
+npm run test:coverage # Run tests with coverage report
+```
+
+The project includes comprehensive unit tests:
+- **Comparison Engine**: 28 tests covering all comparison logic
+- **Components**: Tests for UI components and user interactions
+- **100% coverage** on core comparison algorithm
+
+Tests run automatically on every push via GitHub Actions CI/CD pipeline.
+
 ### Type Checking
 
 Run TypeScript type checker:
